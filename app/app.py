@@ -32,7 +32,7 @@ selected_year = st.slider(
     on_change=set_year
 )
 
-default_country = ['Germany'] if 'Germany' in countries else [countries[0]] if countries else []
+default_country = ['India'] if 'India' in countries else [countries[0]] if countries else []
 
 selected_countries = st.multiselect(
     "Select Countries",
